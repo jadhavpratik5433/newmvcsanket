@@ -4,7 +4,8 @@
 @{
 }
 <h1>Add Employee</h1>
-<form method="post" action="Add" class="nt-5">
+<form asp-controller="Employee" asp-action="Add" method="post" class="nt-5">
+    
     @* <div class="mb-3">
         <label for="" class="form-label">Id</label>
         <input type="text" class="form-control" asp-for="Id"></input>
@@ -31,6 +32,5 @@
     </div>
 
     <button type="submit" class="btn btn-primary">Submit</button>
-
 
 </form>
